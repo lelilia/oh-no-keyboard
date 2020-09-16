@@ -1,0 +1,45 @@
+{
+  :profiles {:oh_no {:default true
+                        :sim 50
+                        :delay 500
+                        :alone 1000
+                        :held 500}}
+
+  :main [
+    {
+      :des "oh no"
+      :rules [
+        
+        [:q [:!Rg :g :g :g :u :spacebar :j :g :!Oy :spacebar :return_or_enter]]
+        [:w [:g :g :g :u :!Oy :spacebar :j :g :!Oy :spacebar]]
+        [:e [:g :u :spacebar :j :g :!Oy :spacebar :return_or_enter]]
+        [:r [:g :u :spacebar :j :g :!Oy :!Oy :!Oy :spacebar]]
+        [:t [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:z [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:u [:g :u :spacebar :j :g :!Oy :!Oy :!Oy :spacebar]]
+        [:i [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:o [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:p [:g :u :spacebar :j :g :g :g :g :!Oy :spacebar :return_or_enter]]
+        [:a [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:s [:g :u :spacebar :!Oy :!Oy :!Oy :!Oy :j :g :!Oy :spacebar]]
+        [:d [:g :u :spacebar :j :g :!Oh :spacebar]]
+        [:f [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:g [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:h [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:j [:g :g :g :u :spacebar :j :g :!Oy :spacebar :return_or_enter]]
+        [:k [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:l [:g :u :spacebar :j :g :g :g :!Oy :spacebar]]
+        [:y [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:x [:g :u :spacebar :j :g :!Oy :spacebar :return_or_enter]]
+        [:c [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:v [:!Rg :!Ru :spacebar :!Rj :!Rg :!Oy :spacebar]]
+        [:b [:g :u :spacebar :j :g :!Oy :spacebar]]
+        [:n [:g :u :spacebar :j :g :!Oy :spacebar :return_or_enter]]
+        [:m [:g :u :spacebar :j :g :!Oy :spacebar]]
+        
+      ]
+      
+    }
+  ]
+
+}
