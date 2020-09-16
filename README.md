@@ -1,15 +1,15 @@
 # oh-no-keyboard
 the most useless keyboard layout for when you are in the mood
 
-##motivation
+## motivation
 sometimes 'oh no' is all you can muster 
 
-##get it running
+## get it running
 
-###prerequisits
+### prerequisits
 neo layout on a Mac
 
-installing
+### installing
 if you have neo running on a Mac you already have Karabiner installed. You also need goku.
 
 brew install yqrashawn/goku/goku
@@ -18,7 +18,7 @@ copy the code to ~/.config/karabiner.edn and create a Karabiner profile called "
 goku
 will install the mapping to your Karabiner profile. 
 
-using it
+## using it
 oh no! ooohno! 
 oh no! ooohno! 
 oh no! oh no! ohnooo! oooh no! 
