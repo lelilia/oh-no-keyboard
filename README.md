@@ -7,10 +7,10 @@ sometimes 'oh no' is all you can muster
 ## get it running
 
 ### prerequisits
-neo layout on a Mac
+[neo layout](https://neo-layout.org/) on a Mac
 
 ### installing
-if you have neo running on a Mac you already have Karabiner installed. You also need goku.
+if you have neo running on a Mac you already have [Karabiner](https://karabiner-elements.pqrs.org/) installed. You also need goku.
 
 brew install yqrashawn/goku/goku
 copy the code to ~/.config/karabiner.edn and create a Karabiner profile called "oh_no".
